@@ -3,7 +3,7 @@ agent any
 stages{
    stage("docker-compose"){
     steps{
-      sh 'sudo ansible-playbook docker-compose.yml
+      sh 'sudo ansible-playbook app-deploy.yml
 }
 }   
 }
